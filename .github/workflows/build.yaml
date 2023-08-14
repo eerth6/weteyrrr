@@ -23,7 +23,7 @@ jobs:
             **/go.sum
             **/go.mod
       - name: Setup CUE
-        uses: cue-lang/setup-cue@0be332bb74c8a2f07821389447ba3163e2da3bfb # main
+        uses: cue-lang/setup-cue@1713281ae501e533ff06108005dffeab9e2e5203 # main
         with:
           version: latest
       - name: Run tests
